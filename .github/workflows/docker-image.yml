@@ -1,0 +1,29 @@
+name: Sync to Hugging Face hub
+on:
+  push:
+    branches: [main]
+
+  # to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+      - name: Uninstal lfs
+        run: git lfs uninstall 
+          
+      - name: Install lfs
+        run: git lfs install 
+      - name: Install lfs git 
+        run: sudo apt-get install git-lfs
+      - name: trak lfs files png, pdf, jpg
+        run: git lfs track "*.png" "*.pdf" "*.jpg"
+      - name: Push to hub
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN_GITHUB }}
+        run: git push -f https://HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/ameerazam08/research-index main
