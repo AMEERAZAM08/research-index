@@ -1,5 +1,5 @@
 ---
-title: Next Server Example App
+title: Research-Index
 emoji: 🔥
 colorFrom: yellow
 colorTo: red
@@ -12,17 +12,13 @@ app_port: 3000
 ```
 Got /src/app/about-event.tsx
 
-#upload image in /public/paper_image
+#upload image in /public/images
 
 {
     title: "Paper Title", #paper name
     description: "Discriptions", #short description of paper,
-    subTitle: "Paper Tag",  #For example lipsync , Diffusion
+    subTitle: "Paper Tag",  #Forexample lipsync , Diffusion
     imageName : "avatar1.jpg",  #image name 
     paper_links :"paper links" #paper link
   },
-
-  
 ```
-
-
