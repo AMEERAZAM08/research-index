@@ -1,11 +1,13 @@
 ---
 title: Research-Index
 emoji: 🔥
-colorFrom: yellow
+colorFrom: blue
 colorTo: red
 sdk: docker
-pinned: false
+
+pinned: true
 app_port: 3000
+short_description: Latest Best Papers Update Daily
 ---
 
 ## Add New Paper here 
