@@ -38,17 +38,17 @@ function NavItem({ children, href }: NavItemProps) {
 }
 
 const NAV_MENU = [
+  // {
+  //   name: "Page",
+  //   icon: RectangleStackIcon,
+  // },
+  // {
+  //   name: "Account",
+  //   icon: UserCircleIcon,
+  // },
   {
-    name: "Page",
+    name: "Add New Paper", 
     icon: RectangleStackIcon,
-  },
-  {
-    name: "Account",
-    icon: UserCircleIcon,
-  },
-  {
-    name: "Docs",
-    icon: CommandLineIcon,
     href: "https://www.material-tailwind.com/docs/react/installation",
   },
 ];
