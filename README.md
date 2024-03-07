@@ -12,13 +12,17 @@ app_port: 3000
 ```
 Got /src/app/about-event.tsx
 
-#upload image in /public/images
+#upload image in /public/paper_image
 
 {
     title: "Paper Title", #paper name
     description: "Discriptions", #short description of paper,
-    subTitle: "Paper Tag",  #Forexample lipsync , Diffusion
+    subTitle: "Paper Tag",  #For example lipsync , Diffusion
     imageName : "avatar1.jpg",  #image name 
     paper_links :"paper links" #paper link
   },
+
+  
 ```
+
+
