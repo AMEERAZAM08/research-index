@@ -14,7 +14,7 @@ short_description: Latest Best Papers Update Daily
 ```
 Got /src/app/about-event.tsx
 
-#upload image in /public/images
+#upload image in /public/paper_image
 
 {
     title: "Paper Title", #paper name
